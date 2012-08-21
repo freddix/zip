@@ -1,0 +1,11 @@
+diff -urN zip-2.3.orig/zip.h zip-2.3/zip.h
+--- zip-2.3.orig/zip.h	Mon Nov  8 20:36:51 1999
++++ zip-2.3/zip.h	Sat May  6 00:55:56 2000
+@@ -60,6 +60,7 @@
+ 
+ /* Set up portability */
+ #include "tailor.h"
++#include <strings.h>
+ 
+ #ifdef USE_ZLIB
+ #  include "zlib.h"
