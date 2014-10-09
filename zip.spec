@@ -1,7 +1,8 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/zip.git
 Summary:	A file compression and packaging utility compatible with PKZIP
 Name:		zip
 Version:	3.0
-Release:	2
+Release:	3
 License:	distributable
 Group:		Applications/Archiving
 Source0:	ftp://ftp.info-zip.org/pub/infozip/src/%{name}30.tgz
